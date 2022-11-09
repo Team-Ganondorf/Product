@@ -12,6 +12,7 @@ id serial primary key,
 product_id integer references products(id),
 feature text NOT NULL,
 value text
+
 );
 
 CREATE TABLE styles (
